@@ -17,6 +17,7 @@ const Gallery = () => { // display data
                 settours(data); // data fetched into state
                 setLoading(false); //loading to false after fetching data
             } catch (error) {
+                console.error("Error", error); //log full error
                 setError(error.message); //error message if fetch fails
                 setLoading(false); //loading to false to stop
             }
