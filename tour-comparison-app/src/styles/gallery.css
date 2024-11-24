@@ -3,24 +3,18 @@
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-    justify-content: center;
-    padding: 16px;
+    justify-content: left;
 }
 
 /* style for tours */
-.tour-card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
+.tour-container {
     width: 300px;
-    padding: 16px;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
 }
 
 /* syle for tour imgs */
 .tour-image {
-    width: 100%;
+    width: 100px;
     height: auto;
-    border-radius: 4px;
-    margin-bottom: 8px;
+    object-fit: cover;
 }
